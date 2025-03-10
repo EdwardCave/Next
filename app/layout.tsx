@@ -3,7 +3,8 @@ import type { Metadata } from "next";
 import {Poppins} from "next/font/google"
 import "./globals.css";
 import ResponsiveNav from '../components/Home/Navbar/ResponsiveNav'
-
+import ScrollToTop from "@/components/Helper/ScrollToTop";
+import Footer from "@/components/Home/Footer/Footer";
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
 //   subsets: ["latin"],
@@ -35,6 +36,8 @@ export default function RootLayout({
       >
         <ResponsiveNav/>
         {children}
+        <ScrollToTop/>
+        <Footer/>
       </body>
     </html>
   );
