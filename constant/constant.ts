@@ -31,4 +31,9 @@ export const navLinks = [
       url: "#",
       label: "Contact",
     },
+    {
+      id: 7,
+      url: "#",
+      label: "Help Center",
+    },
   ]
